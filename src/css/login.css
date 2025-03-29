@@ -1,0 +1,90 @@
+/* General Page Styling */
+body {
+  background-color: #121212; /* Dark Background */
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+/* Login Container */
+.container {
+  background: rgba(255, 255, 255, 0.1); /* Light Transparent Background */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+/* Login Heading */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Form Fields */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Input Fields */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+/* Login Button */
+.btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  background: #d06029;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+  border: none;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+/* Extra Options (Links) */
+.extra-options {
+  margin-top: 15px;
+}
+
+.extra-options p {
+  margin: 5px 0;
+}
+
+.extra-options a {
+  color: #00c3ff;
+  text-decoration: none;
+}
+
+.extra-options a:hover {
+  text-decoration: underline;
+}
+
+/* Message Box */
+#message {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
